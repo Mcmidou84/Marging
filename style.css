@@ -1,18 +1,63 @@
-body{
-    background-color: black;
+.fond{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(#a46bff, #63ffb1);
 }
-h1{
-    text-transform:uppercase;
-    font-size: 2em;
+
+
+.fond {
+    position: relative;
+    height: 100vh; /* Hauteur de la fenêtre */
+  }
+  
+.logo img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centre l'image */
+    max-width: 100%;
+    height: 30%;
+  }
+ footer{
+    font-family:"Raleway";
+    font-size: 8pt;
+    text-align: center;
+ }
+.graphiste{
+    float:left;
+    font-family:"ANTON";
+    font-size: 20pt;
+    text-align: center;
+    color:#500472;
+    writing-mode: vertical-rl; /* ou vertical-lr */
+    text-orientation:upright; /* Pour garder les lettres dans leur orientation normale */
+    
+} 
+.accueil{
+    float:left;
+    font-family:"ANTON";
+    font-size: 20pt;
+    text-align: center;
+    color:#ffffff;
+    writing-mode: vertical-rl; /* ou vertical-lr */
+    text-orientation:upright; /* Pour garder les lettres dans leur orientation normale */
 }
-.poster{
-width:50%;
-margin:10% 25%;
-color:white;
-font-family: "Libre Baskerville", serif;
-text-align: center;
+.contact{
+    float:left;
+    font-family:"ANTON";
+    font-size: 20pt;
+    text-align: center;
+    color:#ffffff;
+    writing-mode: vertical-rl; /* ou vertical-lr */
+    text-orientation:upright; /* Pour garder les lettres dans leur orientation normale */
 }
-.motivation{
-    width:100%;
-    border: solid 5px white;
+.portfolio{
+    float:left;
+    font-family:"ANTON";
+    font-size: 20pt;
+    text-align: center;
+    color:#500472;
+    writing-mode: vertical-rl; /* ou vertical-lr */
+    text-orientation:upright; /* Pour garder les lettres dans leur orientation normale */
 }
